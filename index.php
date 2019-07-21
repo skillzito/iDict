@@ -133,9 +133,9 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Accept: */*',
     'Accept-Encoding: gzip, deflate',               
     'Accept-Language: en-us',
-    'X-MMe-Country: US',
+    'X-MMe-Country: us',
     'Connection: keep-alive',
-    'X-MMe-Client-Info: <iPhone4,1> <iPhone OS;7.0.4;11B554a> <com.apple.AppleAccount/1.0 (com.apple.Preferences/1.0)>',
+    'X-MMe-Client-Info: <iPhone6> <iPhone OS;11.2.1;11B554a> <com.apple.AppleAccount/1.0 (com.apple.Preferences/1.0)>',
 ));
 
 $response = curl_exec($ch);                                // execute!
